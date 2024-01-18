@@ -1,6 +1,6 @@
 console.log("main.js online")
 
-navigator.geolocation.getCurrentPosition(output, error);
+const knowYourPosition = navigator.geolocation.getCurrentPosition(output, error);
 
 function output(position) {
     console.log(position);
